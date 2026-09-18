@@ -19,10 +19,10 @@ Emon, M.Z.A.; Salim, K.M.; Chowdhury, M.I.B. "Design and Analysis of a High-Gain
 | Load Capacitance | 2 pF |
 
 ## Circuit Schematic
-![OTA Schematic](bc94743f-a14b-4f5c-b312-54883c2df49e_upscayl_4x_upscayl-standard-4x.png)
+![OTA Schematic](ota-schematic.png)
 
 ## Testbench
-![OTA Testbench](a2ebb0fe-9d4d-411e-b0c6-d1acd30e032f_upscayl_4x_upscayl-standard-4x.png)
+![OTA Testbench](ota-testbench.png)
 
 ## Results — Comparison with Reference Paper
 
@@ -35,13 +35,18 @@ Emon, M.Z.A.; Salim, K.M.; Chowdhury, M.I.B. "Design and Analysis of a High-Gain
 | Input-Referred Noise | 14.9 µV | 15.9 µV | Better |
 
 ### Gain Response
-![Gain Response](7f9b60d7-f050-40a8-821b-04324c52ba66.jpg)
+![Gain Response](ota-gain-response.jpg)
 
 ### Phase Response
-![Phase Response](13714c57-bac4-408f-bc8e-e8cad9bc5a35_upscayl_4x_upscayl-standard-4x.png)
+![Phase Response](ota-phase-response.jpg)
 
 ### Combined Gain & Phase (Phase Margin)
-![Gain and Phase Response](95ca8564-d9af-4244-af60-e1420c6fa44a_upscayl_4x_upscayl-standard-4x.png)
+![Gain and Phase Response](ota-gain-phase-response.png)
+
+### Noise Analysis Summary
+Cadence noise summary confirming a total input-referred noise of **14.9 µV**, matching the reported result.
+
+![Noise Summary](ota-noise-summary.jpg)
 
 ## Notes
 This project was undertaken as a hands-on learning exercise to understand analog IC design flow using the gm/ID methodology, following the CMOS Analog IC Design course (ITI). The design methodology and specifications are derived from the cited paper; all simulations and circuit sizing were independently performed in Cadence Virtuoso.
